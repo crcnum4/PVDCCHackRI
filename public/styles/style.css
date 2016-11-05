@@ -1,0 +1,88 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+#logo {
+    height: 60px;
+}
+
+a.navbar-brand {
+    font-size: 1.4em;
+    padding: 20px 15px;
+}
+
+ul li a{
+    padding: 20px 15px !important;
+    font-size: 1.2em;
+}
+
+.jumbotron-fluid#home {
+    background-image: url("../../imgs/16bit2.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.jumbotron-fluid .container {
+    width: 60vw;
+    padding-top: 25vh;
+    font-size: 1.2em
+} 
+
+.jumbotron-fluid {
+    text-align: center;
+    
+}
+
+.jumbotron-fluid h2, .jumbotron-fluid p {
+    padding-bottom: 20px;
+}
+
+#about {
+    background-color: lightcyan;
+}
+
+#about .content {
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 5vh;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+img.header-image, img.thumbnail {
+    border-radius: 100%;
+    background-color: lightgray;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img#downloadgame {
+    width: 250px;
+}
+
+.jumbotron-fluid#download {
+    height: 100vh;
+    background-color: #B5C7EA
+}
+
+.hidden {
+    display: none;
+}
+
+.readMore, .readLess {
+    color: #23529C;
+}
+
+.readMore:hover, .readLess:hover {
+    color: #333333;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+

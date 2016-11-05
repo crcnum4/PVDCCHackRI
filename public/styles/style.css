@@ -22,7 +22,7 @@ ul li a{
 }
 
 .jumbotron-fluid#home {
-    background-image: url("../../imgs/16bit2.png");
+    background-image: url("../imgs/16bit2.png");
     background-size: cover;
     height: 100vh;
 }
